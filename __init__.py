@@ -14,16 +14,16 @@ class Cadastra_veiculo:
     def conexao_banco(self):
         # Criando a conexão
         myconnection = mysql.connector.connect(
-            host='localhost',
-            user='root',
-            password='654321',
-            database='concessionaria',
+            host='',  #local ondé esta o banco de dados
+            user='',  #nome do usuario
+            password='',  #senha
+            database='',  #nome do banco de dados
         )
 
         cursor = myconnection.cursor()
 
         # Comando SQL para inserir valores dentro da tabela veiculos
-        comando = f'INSERT INTO veiculos VALUES ("{self.id}", "{self.placa}","{self.modelo}","{self.marca}",' \
+        comando = f'INSERT INTO (nome da tabela) VALUES ("{self.id}", "{self.placa}","{self.modelo}","{self.marca}",' \
                   f'"{self.ano}", "{self.cor}", "{self.km}", "{self.motor}")'
 
         cursor.execute(comando)
