@@ -1,6 +1,6 @@
 # Conexao_BancoDados_Mysql
  Objetivo principal do projeto é criar uma conexão e inserir valores dentro do Banco de Dados. 
- Neste cenário prático o código tem como principio cadastrar veículos dentro de um banco de dados de uma concessionária ou uma locadoura de veículos por exemplo.
+ Neste cenário prático o código tem como principio cadastrar veículos dentro de um banco de dados de uma concessionária ou uma locadora de veículos por exemplo.
 
 # Techs
 - Python
